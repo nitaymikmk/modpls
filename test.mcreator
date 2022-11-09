@@ -124,6 +124,22 @@
           }
         ]
       }
+    },
+    {
+      "name": "Luffy",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luffy"
+    },
+    {
+      "name": "Gomugomunomi",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gomugomunomi"
     }
   ],
   "variable_elements": [
@@ -151,9 +167,12 @@
     "en_us": {
       "item.test.tsuk": "Tsuk",
       "item.test.tsukyomihead_helmet": "Tsukyomihead Helmet",
+      "entity.test.luffy": "Luffy",
       "item.test.tsukyomihead_leggings": "Tsukyomihead Leggings",
+      "item.test.luffy_spawn_egg": "Luffy Spawn Egg",
       "item.test.tsukyomihead_chestplate": "Tsukyomihead Body",
       "item.test.tsukyomihead_boots": "Tsukyomihead Boots",
+      "item.test.gomugomunomi": "Gomugomunomi",
       "item.test.tsukuyomi": "Tsukuyomi Portal Igniter",
       "biome.test.tsukoyomi": "Tsukoyomi"
     }

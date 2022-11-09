@@ -30,6 +30,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
 import net.mcreator.test.init.TestModItems;
+import net.mcreator.test.init.TestModEntities;
 import net.mcreator.test.init.TestModBiomes;
 
 import java.util.function.Supplier;
@@ -50,6 +51,7 @@ public class TestMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		TestModItems.REGISTRY.register(bus);
+		TestModEntities.REGISTRY.register(bus);
 
 		TestModBiomes.REGISTRY.register(bus);
 	}

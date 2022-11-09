@@ -23,7 +23,7 @@
       "name": "Tsuk",
       "type": "item",
       "sortid": 3,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "tsuk"
     },
@@ -41,7 +41,53 @@
             "type": "entity"
           },
           {
-            "name": "sourceentity",
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TsukyomiheadHelmetTickEvent",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsukyomihead_helmet_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tsukyomihead",
+      "type": "armor",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsukyomihead",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "TsukItemIsDroppedByPlayer",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsuk_item_is_dropped_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
             "type": "entity"
           },
           {
@@ -50,6 +96,42 @@
           }
         ]
       }
+    },
+    {
+      "name": "TsukyomiheadBodyTickEvent",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsukyomihead_body_tick_event",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Luffy",
+      "type": "livingentity",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "luffy"
     }
   ],
   "variable_elements": [
@@ -76,6 +158,12 @@
   "language_map": {
     "en_us": {
       "item.test.tsuk": "Tsuk",
+      "item.test.tsukyomihead_helmet": "Tsukyomihead Helmet",
+      "entity.test.luffy": "Luffy",
+      "item.test.tsukyomihead_leggings": "Tsukyomihead Leggings",
+      "item.test.luffy_spawn_egg": "Luffy Spawn Egg",
+      "item.test.tsukyomihead_chestplate": "Tsukyomihead Body",
+      "item.test.tsukyomihead_boots": "Tsukyomihead Boots",
       "item.test.tsukuyomi": "Tsukuyomi Portal Igniter",
       "biome.test.tsukoyomi": "Tsukoyomi"
     }
