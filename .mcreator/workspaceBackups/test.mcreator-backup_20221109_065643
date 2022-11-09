@@ -1,0 +1,105 @@
+{
+  "mod_elements": [
+    {
+      "name": "Tsukoyomi",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsukoyomi"
+    },
+    {
+      "name": "Tsukuyomi",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsukuyomi",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "Tsuk",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tsuk"
+    },
+    {
+      "name": "OnRightClickEntity",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "on_right_click_entity",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "x",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "y",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "z",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test.tsuk": "Tsuk",
+      "item.test.tsukuyomi": "Tsukuyomi Portal Igniter",
+      "biome.test.tsukoyomi": "Tsukoyomi"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "test",
+    "modName": "test",
+    "version": "1.0.0",
+    "author": "nitay, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200345616
+}
