@@ -1,0 +1,16 @@
+JVM:         C:\Program Files\Pylo\MCreator\jdk\bin\java.exe
+JVM Args:    
+Run Args:    "--task", "MERGE_MAPPING", "--left", "config/joined.tsrg", "--right", "C:\Users\jonat\3D Objects\mcshrek\build\fg_cache\mcp\1.19.2-20220805.130853\joined\d780eabdadf5a02090f4ac8f4794c5a025c12400\downloadClientMappings\client_mappings.txt", "--right-names", "right,left", "--classes", "--output", "C:\Users\jonat\3D Objects\mcshrek\build\fg_cache\mcp\1.19.2-20220805.130853\joined\d780eabdadf5a02090f4ac8f4794c5a025c12400\mergeMappings\output.jar"
+Classpath:   C:\Users\jonat\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\installertools\1.2.0\installertools-1.2.0-fatjar.jar
+Working Dir: C:\Users\jonat\3D Objects\mcshrek\build\fg_cache\mcp\1.19.2-20220805.130853\joined\d780eabdadf5a02090f4ac8f4794c5a025c12400\mergeMappings
+Main Class:  net.minecraftforge.installertools.ConsoleTool
+Task: MERGE_MAPPING
+Left:    config\joined.tsrg
+         null
+Right:   C:\Users\jonat\3D Objects\mcshrek\build\fg_cache\mcp\1.19.2-20220805.130853\joined\d780eabdadf5a02090f4ac8f4794c5a025c12400\downloadClientMappings\client_mappings.txt
+         right,left
+Classes: true
+Fields:  false
+Methods: false
+Params:  false
+Output:  C:\Users\jonat\3D Objects\mcshrek\build\fg_cache\mcp\1.19.2-20220805.130853\joined\d780eabdadf5a02090f4ac8f4794c5a025c12400\mergeMappings\output.jar
